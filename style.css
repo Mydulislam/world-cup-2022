@@ -94,7 +94,7 @@ img{
     background-color: var(--bg-colol);
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 25px;
     border-radius: 10px;
     margin-right: 24px;
 }
@@ -106,7 +106,7 @@ img{
     color: var(--bg-colol);
     text-align: center;
     border-radius: 10px;
-    padding: 17px;
+    padding: 15px;
 }
 .left-side-area a:last-child{
     margin:0;
@@ -154,6 +154,32 @@ img{
 }
 .blog-time span i{
     margin-right: 13px;
+}
+.shedule-left{
+    width: 312px;
+    padding:20px;
+}
+.shedule-blog{
+    text-align: center;
+    margin-top: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+.shedule-blog b{
+    font-size: 25px;
+    margin: 0 5px;
+}
+.shedule-blog img{}
+.shedule-header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.shedule-date{
+    text-align: center;
+    padding-bottom: 52px;
 }
 .more{
     display: none;
