@@ -64,7 +64,11 @@ img{
     display: inline-block;
     padding: 16px 25px;
     border-radius: 5px;
-
+    border:1px solid var(--link-bg);
+    transition: 0.5s;
+}
+.link:hover{
+    background-color: transparent;
 }
 .icon i{
     font-size: 15px;
@@ -198,6 +202,7 @@ img{
 .footer-area{
     background-color: var(--bg-colol);
     margin: 50px 0px;
+    margin-bottom:0px;
 }
 .footer-area .max-width{
     text-align: center;
