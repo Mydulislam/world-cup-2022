@@ -38,6 +38,7 @@ img{
     background-color: var(--bg-colol);
     display: flex;
     border-radius: 30px;
+    transition: 0.5s;
 }
 .banner-left{
     color: var(--heading-color);
@@ -46,6 +47,21 @@ img{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 75px;
+    animation: fade-left 1000ms forwards;
+    transform: translateX(-180px);
+    opacity: 0;
+    animation-delay: 10ms;
+}
+/* Banner left animation */
+@keyframes fade-left{
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 .banner-heading{
     font-size: 70px;
@@ -83,6 +99,21 @@ img{
 .banner-right img{
     width:100%;
     height:100%;
+    animation: fade-right 2000ms forwards;
+    transform: translateX(180px);
+    opacity: 0;
+    animation-delay: 100ms;
+}
+/* Banner Right animation */
+@keyframes fade-right{
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 /* =====================================================
     Main Area Left Side Styling
